@@ -15,7 +15,7 @@ const Projects = () => {
       </div>
 
       <div className="pt-24">
-        <div className="grid grid-cols-2 grid-flow-row gap-12">
+        <div className="grid lg:grid-cols-2 md:grid-cols-1 grid-flow-row gap-12">
           {projectsData.map((project, index) => (
             <div
               id={`sticky-card-${index + 1}`}
