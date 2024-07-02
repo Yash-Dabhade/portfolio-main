@@ -2,7 +2,8 @@
 
 import * as React from "react";
 import GlowCard from "../../helper/glow-card";
-import { IoLogoGithub } from "react-icons/io";
+import { IoLogoGithub, IoMdLink } from "react-icons/io";
+import { CiGlobe } from "react-icons/ci";
 import Link from "next/link";
 
 function ProjectCard({ project }) {
@@ -22,13 +23,21 @@ function ProjectCard({ project }) {
         <div className="font-bold text-white font-mono text-xl">
           {project.name}
         </div>
-        <div>
+        <div className="flex items-center justify-between gap-2">
           <Link target="_blank" href={project.code}>
             <IoLogoGithub
               className="bg-[#8b98a5] p-1 rounded-full hover:bg-[#f7f7f7] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
               size={38}
             />
           </Link>
+          {project.demo.length > 0 && (
+            <Link target="_blank" href={project.demo}>
+              <CiGlobe
+                className="bg-[#8b98a5] p-1 rounded-full hover:bg-[#f7f7f7] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
+                size={38}
+              />
+            </Link>
+          )}
         </div>
       </div>
     </div>

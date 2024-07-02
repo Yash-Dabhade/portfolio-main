@@ -41,7 +41,7 @@ export const projectsData = [
     ],
     code: "https://github.com/Yash-Dabhade/GenZGames",
     role: "Full Stack Developer",
-    demo: "",
+    demo: "https://gen-z-games.vercel.app/",
     image: "/GenZGamesSS.png",
   },
   {
@@ -51,7 +51,7 @@ export const projectsData = [
       "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
     tools: ["NextJS", "Material UI", "Redux", "Sun Editor", "Calendar"],
     code: "https://github.com/Yash-Dabhade/gppenPortal",
-    demo: "",
+    demo: "https://gppen.ac.in/",
     image: "/GPPortalSS.png",
     role: "Full Stack Developer",
   },
@@ -62,7 +62,7 @@ export const projectsData = [
       "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
     tools: ["NextJS", "Material UI", "Redux", "Sun Editor", "Calendar"],
     code: "https://github.com/Yash-Dabhade/website-gpp",
-    demo: "",
+    demo: "https://gov-poly-pen-portal.web.app/login",
     image: "/GPPENSS.png",
     role: "Full Stack Developer",
   },
@@ -73,7 +73,7 @@ export const projectsData = [
       "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
     tools: ["NextJS", "Material UI", "Redux", "Sun Editor", "Calendar"],
     code: "https://github.com/Yash-Dabhade/AICTE_PORTAL_SIH22",
-    demo: "",
+    demo: "https://aicte-portal-sih-22.vercel.app/",
     image: "/AICTESS.png",
     role: "Full Stack Developer",
   },
@@ -89,17 +89,3 @@ export const projectsData = [
     role: "Full Stack Developer",
   },
 ];
-
-// Do not remove any property.
-// Leave it blank instead as shown below
-
-// {
-//     id: 1,
-//     name: '',
-//     description: "",
-//     tools: [],
-//     role: '',
-//     code: '',
-//     demo: '',
-//     image: crefin,
-// },
