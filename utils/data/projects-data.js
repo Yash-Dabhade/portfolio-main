@@ -51,7 +51,7 @@ export const projectsData = [
       "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
     tools: ["NextJS", "Material UI", "Redux", "Sun Editor", "Calendar"],
     code: "https://github.com/Yash-Dabhade/gppenPortal",
-    demo: "https://gppen.ac.in/",
+    demo: "https://gov-poly-pen-portal.web.app/login",
     image: "/GPPortalSS.png",
     role: "Full Stack Developer",
   },
@@ -62,7 +62,8 @@ export const projectsData = [
       "My team and I developed a newspaper management dashboard application called Newsroom Management. As a front-end developer, I worked on creating the dashboard using NextJS, Material UI, Redux, Calendar, and other necessary npm libraries. We used React Redux to manage the application's state and React-hook-form and Sun Editor to handle forms.",
     tools: ["NextJS", "Material UI", "Redux", "Sun Editor", "Calendar"],
     code: "https://github.com/Yash-Dabhade/website-gpp",
-    demo: "https://gov-poly-pen-portal.web.app/login",
+
+    demo: "https://gppen.ac.in/",
     image: "/GPPENSS.png",
     role: "Full Stack Developer",
   },
