@@ -28,10 +28,10 @@ function AboutSection() {
         <div className="flex justify-center order-1 lg:order-2">
           <Image
             src={personalData.profile}
-            width={300}
-            height={280}
+            width={325}
+            height={230}
             alt="Yash Dabhade"
-            className="rounded-lg transition-all duration-1000 grayscale hover:grayscale-0 hover:scale-110 cursor-pointer"
+            className="rounded-lg cursor-pointer"
           />
         </div>
       </div>

@@ -28,13 +28,13 @@ export default async function Home() {
   const blogs = await getData();
 
   return (
-    <>
+    <div style={{ scrollBehavior: "smooth" }}>
       <HeroSection />
       <AboutSection />
       <Skills />
       <Projects />
       <Education />
       <ContactSection />
-    </>
+    </div>
   );
 }

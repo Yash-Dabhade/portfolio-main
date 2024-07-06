@@ -17,7 +17,7 @@ export const projectsData = [
     ],
     role: "Full Stack Developer",
     code: "https://github.com/Hire-Rank/Code-Pad-Client",
-    demo: "",
+    demo: "https://code-pad-client.vercel.app/",
     image: "/CODEPADSS.jpg",
   },
   {
