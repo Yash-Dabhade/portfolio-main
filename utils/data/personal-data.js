@@ -6,7 +6,6 @@ export const personalData = {
   description2:
     " Beyond development, I have strong problem-solving skills, holding the title of Specialist on Codeforces and Knight on Leetcode (top 5% of total users). I am actively seeking internship and job opportunities that align with my skills and interests. Feel free to reach out to me.",
   email: "dabhadeyash1111@gmail.com",
-  phone: "+917558421764",
   address: "New Panvel, Maharashtra, India",
   github: "https://github.com/Yash-Dabhade",
   facebook: "https://www.facebook.com/yash.dabhade.5661/",

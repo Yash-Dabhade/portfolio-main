@@ -5,7 +5,7 @@ import { BiLogoLinkedin } from "react-icons/bi";
 import { CiLocationOn } from "react-icons/ci";
 import { FaFacebook, FaStackOverflow } from "react-icons/fa";
 import { FaXTwitter } from "react-icons/fa6";
-import { IoLogoGithub, IoMdCall } from "react-icons/io";
+import { IoLogoGithub } from "react-icons/io";
 import { MdAlternateEmail } from "react-icons/md";
 import ContactWithCaptcha from "./contact-with-captcha";
 import ContactWithoutCaptcha from "./contact-without-captcha";
@@ -35,13 +35,6 @@ function ContactSection() {
                 size={36}
               />
               <span>{personalData.email}</span>
-            </p>
-            <p className="text-sm md:text-xl flex items-center gap-3">
-              <IoMdCall
-                className="bg-[#8b98a5] p-2 rounded-full hover:bg-[#eaeaea] hover:scale-110 transition-all duration-300 text-gray-800 cursor-pointer"
-                size={36}
-              />
-              <span>{personalData.phone}</span>
             </p>
             <p className="text-sm md:text-xl flex items-center gap-3">
               <CiLocationOn
