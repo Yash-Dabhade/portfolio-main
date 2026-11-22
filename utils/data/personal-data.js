@@ -1,6 +1,5 @@
 export const personalData = {
   name: "Yash Dabhade",
-  profile: "/profile.jpg",
   designation: "Software Developer",
   description1:
     "I am Yash Dabhade, a final-year student at Pillai College of Engineering, pursuing a B.Tech in Computer Engineering. I have extensive experience in building full-stack web applications from inception to deployment. Additionally, I have freelanced, creating projects that are visited by over 68,000 people.",
@@ -15,6 +14,4 @@ export const personalData = {
   twitter: "https://x.com/YashD283",
   leetcode: "https://leetcode.com/yashdabhade283/",
   devUsername: "yashdabhade283",
-  resume:
-    "https://drive.google.com/file/d/1QVsnsdtOk_fSRhrJmn7X5KXpCoie9pMn/view?usp=sharing",
 };
